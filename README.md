@@ -6,7 +6,7 @@ frolicd.nvim
 installation
 ------------
 
-just install it as any other neovim plugin, then require it at map any key to its main function:
+just install it as any other neovim plugin, then require it and map any key to its main and only function:
 
 ```lua
 require'frolicd`
@@ -18,7 +18,7 @@ vim.api.nvim_set_keymap(
 )
 ```
 
-if you want to use `frolicd` instead of `netrw` when neovim is launched with `nvim $x` where `$x` is a directory, replace `require'frolicd` with:
+if you want to use `frolicd` instead of `netrw` when neovim is launched with `nvim $x` where `$x` is a directory, replace `require'frolicd'` with:
 
 ```lua
 require'frolicd`.setup()
