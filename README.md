@@ -13,11 +13,13 @@ require'frolicd`
 vim.api.nvim_set_keymap(
     'n',
     '-',
-    -- i map with optiong '-c' which says:
-    -- "when press enter without selecting a file to edit,
-    -- ask for the creation of a new file (which will be
-    -- edited in neovim)"
-    ':lua Frolicd("-c")<cr>',
+    ':lua Frolicd()<cr>',
     {noremap = true, silent = true}
 )
+```
+
+if you want to use `frolicd` instead of `netrw` when neovim is launched with `nvim $x` where `$x` is a directory, replace `require'frolicd` with:
+
+```lua
+require'frolicd`.setup()
 ```
