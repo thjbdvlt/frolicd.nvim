@@ -1,7 +1,7 @@
 frolicd.nvim
 ============
 
-files and directories browsing using [frolicd](https://github.com/thjbdvlt/frolicd) without exiting [neovim](https://github.com/neovim/neovim).
+[frolicd](https://github.com/thjbdvlt/frolicd) integration in [neovim](https://github.com/neovim/neovim).
 
 installation
 ------------
