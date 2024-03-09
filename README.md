@@ -1,7 +1,7 @@
 frolicd.nvim
 ============
 
-frolid through directories with [frolicd](https://github.com/thjbdvlt/frolicd) inside [neovim](https://github.com/neovim/neovim).
+frolid through directories using [frolicd](https://github.com/thjbdvlt/frolicd) inside [neovim](https://github.com/neovim/neovim).
 
 installation
 ------------
